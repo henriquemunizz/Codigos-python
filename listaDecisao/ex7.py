@@ -5,9 +5,15 @@
 
 import math
 
-num = int(input("Digite um número natural: "))
+while True:
+    num = float(input("Digite um número para descobrir a raiz quadrada: "))
 
-raiz = math.sqrt(num)
+    if num >= 0:
+        raiz = math.sqrt(num)
+        print(f"\nA raiz quadrada de {num} é igual a: {raiz}")
+        break
+    else:
+        print("\nImpossível extrair raiz de número negativo!")
+        continue
 
-print(f"Raiz quadrada: {raiz}")
 

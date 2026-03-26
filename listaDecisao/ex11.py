@@ -10,6 +10,7 @@
 preco = float(input("Preço do produto: "))
 condicao = int(input("Condição de pagamento (1,2,3,4): "))
 
+
 desconto = 0
 
 if condicao == 1:
