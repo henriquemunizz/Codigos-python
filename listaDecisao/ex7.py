@@ -13,7 +13,7 @@ while True:
         print(f"\nA raiz quadrada de {num} é igual a: {raiz}")
         break
     else:
-        print("\nImpossível extrair raiz de número negativo!")
+        print("\nImpossível extrair raiz de número negativo!\n")
         continue
 
 
